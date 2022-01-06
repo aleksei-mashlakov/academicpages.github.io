@@ -57,11 +57,3 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
-
-@  | Electricity Markets | Data Analysis | Energy Systems Modelling |
-Focus:
-Electricity markets - Mathematical modelling - Optimization theory - Energy systems analysis - Renewable energy integration - Operations research - Programming - Data analysis - Electrical engineering
-
-Positioned in the intersection of Computer Science, Operations Research, and Energy Informatics. Interested in solving complex current and future problems by embedding data into the decision making process.
-
-Specialised in: Energy Markets, Operations Research, Stochastic Optimisation, Artificial Intelligence, Big Data, Multi-agent Systems, Reinforcement Learning, Forecasting, Distributed Systems, Scientific Computing
