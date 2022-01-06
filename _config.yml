@@ -7,13 +7,13 @@
 
 # Site Settings
 locale: "en-US"
-title: "Aleksei Mashlakov / Personal website"
+title: "Aleksei Mashlakov"
 title_separator: "-"
 name: &name "Aleksei Mashlakov"
 description: &description "personal description"
 url: https://aleksei-mashlakov.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl: "/home" # the subpath of your site, e.g. "/blog"
-repository: "academicpages/aleksei-mashlakov.github.io"
+baseurl: "" # the subpath of your site, e.g. "/blog"
+repository: "aleksei-mashlakov.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)
 words_per_minute: 160
@@ -80,12 +80,15 @@ analytics:
 author:
   name: "Aleksei Mashlakov"
   avatar: "profile.png"
-  bio: "Researcher in Demand Response/ Flexibility"
+  bio: "I'm a researcher in Demand Response / Flexibility. \\
+    Positioned in the intersection of Power Systems operation, Energy forecasting, \\
+    Operations Research, and Energy Informatics. Interested in optimizing the operation \\
+    of individual energy resources to contribute to a more decarbonized and flexible power system."
   location: "Finland"
   employer:
   pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar: "https://scholar.google.com/citations?user=c-cKvqIAAAAJ&hl=en"
-  email:
+  email: "mashlakov@gmail.com"
   researchgate: "https://www.researchgate.net/profile/Aleksei-Mashlakov"
   uri:
   bitbucket:
@@ -107,7 +110,7 @@ author:
   stackoverflow: # http://stackoverflow.com/users/123456/username
   steam:
   tumblr:
-  twitter: "replacethistwitterhandle"
+  twitter: #"replacethistwitterhandle"
   vine:
   weibo:
   xing:
