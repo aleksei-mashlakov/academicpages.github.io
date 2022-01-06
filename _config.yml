@@ -80,13 +80,10 @@ analytics:
 author:
   name: "Aleksei Mashlakov"
   avatar: "profile.png"
-  bio: "I'm a researcher in Demand Response / Flexibility. \\
-    Positioned in the intersection of Power Systems operation, Energy forecasting, \\
-    Operations Research, and Energy Informatics. Interested in optimizing the operation \\
-    of individual energy resources to contribute to a more decarbonized and flexible power system."
+  bio: "I'm a researcher in Demand Response / Flexibility. My aim is to contribute to a more decarbonized and flexible power system."
   location: "Finland"
   employer:
-  pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed: #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar: "https://scholar.google.com/citations?user=c-cKvqIAAAAJ&hl=en"
   email: "mashlakov@gmail.com"
   researchgate: "https://www.researchgate.net/profile/Aleksei-Mashlakov"
