@@ -8,28 +8,36 @@
 # Site Settings
 locale: "en-US"
 title: "Aleksei Mashlakov"
-title_separator: "-"
+title_separator: "|"
+substitle: "Personal website"
 name: &name "Aleksei Mashlakov"
-description: &description "personal description"
+description: &description "A personal website based on flexible Jekyll theme"
 url: https://aleksei-mashlakov.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "aleksei-mashlakov.github.io"
+repository: "aleksei-mashlakov/aleksei-mashlakov.github.io"
+logo: "/images/favicon-32x32.png"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)
 words_per_minute: 160
-future: true
+search: true
+future: false
 read_more: "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link: false #change to true to add link to talkmap on talks page
 comments:
-  provider: # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider: "utterances" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname:
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-    appid:
+    appid: # optional
     num_posts: # 5 (default)
-    colorscheme: # "light" (default), "dark"
+    colorscheme: #"light" (default), "dark"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+    label: "comment" # Optional - must be existing label.
+
 staticman:
   allowedFields: ["name", "email", "url", "message"]
   branch: "gh-pages" # "master", "gh-pages"
@@ -69,6 +77,7 @@ social:
   type: # Person or Organization (defaults to Person)
   name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.linkedin.com/in/mashlakov"
 
 # Analytics
 analytics:
@@ -79,9 +88,9 @@ analytics:
 # Site Author
 author:
   name: "Aleksei Mashlakov"
-  avatar: "profile.png"
-  bio: "I'm a researcher in Demand Response / Flexibility. My aim is to contribute to a more decarbonized and flexible power system."
-  location: "Finland"
+  avatar: "IMG_6179_cut.jpg"
+  bio: "Researcher in Demand Response / Flexibility"
+  location: "Belgium"
   employer:
   pubmed: #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar: "https://scholar.google.com/citations?user=c-cKvqIAAAAJ&hl=en"
@@ -100,8 +109,8 @@ author:
   instagram:
   impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
-  linkedin:
-  orcid: " https://orcid.org/0000-0001-7370-3805"
+  linkedin: "mashlakov"
+  orcid: "https://orcid.org/0000-0001-7370-3805"
   pinterest:
   soundcloud:
   stackoverflow: # http://stackoverflow.com/users/123456/username
@@ -113,6 +122,19 @@ author:
   xing:
   youtube:
   wikipedia:
+  # links:
+  # - label: "Made Mistakes"
+  #   icon: "fas fa-fw fa-link"
+  #   url: "https://mademistakes.com"
+  # - label: "Twitter"
+  #   icon: "fab fa-fw fa-twitter-square"
+  #   url: "https://twitter.com/mmistakes"
+  # - label: "GitHub"
+  #   icon: "fab fa-fw fa-github"
+  #   url: "https://github.com/mmistakes"
+  # - label: "Instagram"
+  #   icon: "fab fa-fw fa-instagram"
+  #   url: "https://instagram.com/mmistakes"
 
 # Reading Files
 include:
@@ -169,16 +191,16 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  research:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  software:
     output: true
     permalink: /:collection/:path/
-  talks:
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -195,6 +217,17 @@ defaults:
       comments: true
       share: true
       related: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _pages
   - scope:
       path: ""
@@ -202,13 +235,18 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _research
   - scope:
       path: ""
-      type: teaching
+      type: research
     values:
-      layout: single
+      layout: splash
+      toc: true
+      toc_label: "Table of Contents"
+      toc_icon: "cog"
+      toc_sticky: false
       author_profile: true
+      read_time: true
       share: true
       comments: true
   # _publications
@@ -220,10 +258,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _software
   - scope:
       path: ""
-      type: portfolio
+      type: software
     values:
       layout: single
       author_profile: true
@@ -236,6 +274,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
+      comments: true
       share: true
 
 # Sass/SCSS
@@ -247,7 +286,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Finland/Helsinki # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Brussels # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
@@ -298,5 +337,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+# theme: jekyll-theme-minimal
 
-theme: jekyll-theme-minimal

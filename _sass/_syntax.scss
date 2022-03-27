@@ -18,8 +18,8 @@ div.highlighter-rouge, figure.highlight {
     padding: 0.5em;
     background-color: $lighter-gray;
     content: "\f121";
-    font-family: "fontawesome" !important;
-    font-size: $type-size-6;
+    font-family: "Font Awesome 5 Free" !important;
+    font-size: $type-size-syntax;
     line-height: 1;
     text-transform: none;
     speak: none;
@@ -100,7 +100,7 @@ div.highlighter-rouge, figure.highlight {
 .highlight .nt { color: #22b3eb } /* Name.Tag */
 .highlight .nv { color: #22b3eb } /* Name.Variable */
 .highlight .ow { color: #859900 } /* Operator.Word */
-.highlight .w { color: #586e75 } /* Text.Whitespace */
+.highlight .w  { color: #586e75 } /* Text.Whitespace */
 .highlight .mf { color: #2aa198 } /* Literal.Number.Float */
 .highlight .mh { color: #2aa198 } /* Literal.Number.Hex */
 .highlight .mi { color: #2aa198 } /* Literal.Number.Integer */

@@ -1,5 +1,14 @@
+---
+layout: single
+collection: projects
+classes:
+  - landing
+  - dark-theme
+  - wide
+excerpt: "A unique line of text to describe this post that will display in an archive listing and meta description with SEO benefits."
+---
 
-## Useful links for probabilistic time series energy forecasting
+# Useful links for probabilistic time series energy forecasting
 
 **[Uncertainty Toolbox](https://github.com/uncertainty-toolbox/uncertainty-toolbox)**
 > A python toolbox for predictive uncertainty quantification, calibration,
