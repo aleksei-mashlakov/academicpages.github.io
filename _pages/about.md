@@ -64,10 +64,10 @@ Skills
 ======
 
 * **Coding**: Python, R, LaTeX, Bash
-* **ML operations**: pandas, GluonTS, Keras, PyTorch, Sklearn, Hyperopt
+* **ML operations**: pandas, GluonTS, Keras, PyTorch, Sklearn, Hyperopt, MlFlow, Ray
 * **Operations research**: cvxpy, cvxr, cvxstoc, I-EPOS, scipy, cvxpower
 * **Workflows**: OOP, EDA, CI/CD, multithreading, asynchronous programming
 * **Web develepment**: Flask, Tornado, Grafana, Influx, Redis
-* **CI/CD**: Docker, conda, Git, pytest
+* **CI/CD**: Docker, conda, Git, pytest, hydra
 * **Soft skills**: presentation, teamwork, divergent thinking, self-management, perseverance
 
