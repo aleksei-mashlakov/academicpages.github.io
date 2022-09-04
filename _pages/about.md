@@ -24,6 +24,11 @@ Education
         <i>Flexibility aggregation of local energy systems—interconnecting, forecasting, and scheduling</i>
       </a>
     </li>
+    <li>Presentation: 
+      <a href="https://raw.githubusercontent.com/aleksei-mashlakov/LUT-beamer-presentation-template/main/Example_presentation.pdf">
+        <i>Lectio praecursoria</i>
+      </a>
+    </li>
   </ul>
 </details>
 <details>
