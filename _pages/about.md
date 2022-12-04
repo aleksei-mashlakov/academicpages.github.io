@@ -7,8 +7,7 @@ redirect_from:
   - /about/
 ---
 
-I am a Researcher in Demand Response / Flexibility with focus in the Energy Forecasting and Operations Research. My [research](research) is focused on exploring the technological means to enable coordinated particiption of small-scale energy resources in energy markets and grid ancillary services for a more flexible, cost-efficient, and reliable
-operation of a low-carbon power system. 
+I am a Researcher in Demand Response / Flexibility with focus in the Energy Forecasting and Operations Research. My [research](research) is focused on exploring the technological means to enable coordinated participation of small-scale energy resources in energy markets and grid ancillary services for a more flexible, cost-efficient, and reliable operation of a low-carbon power system.
 
 <img style="vertical-align: center" width="20" height="20" src="/images/download.png" alt="Resume download">   Download my resumé [here](/files/CV_Mashlakov_A.pdf){: .btn--research}
 
@@ -76,4 +75,3 @@ Skills
 * **Web develepment**: Flask, Tornado, Grafana, Influx, Redis
 * **CI/CD**: Docker, conda, Git, pytest, hydra
 * **Soft skills**: presentation, teamwork, divergent thinking, self-management, perseverance
-
